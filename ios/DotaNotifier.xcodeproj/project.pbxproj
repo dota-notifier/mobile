@@ -13,7 +13,8 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		38EAD0D23CE88DB1274756D0 /* libPods-DotaNotifier.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEA97E05086D3DA84A4CCA4 /* libPods-DotaNotifier.a */; };
 		D923D29023CE7E8D0038E241 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D923D28F23CE7E8D0038E241 /* GoogleService-Info.plist */; };
-		D923D29223CE84F80038E241 /* match_ready_no_focus.caf in Resources */ = {isa = PBXBuildFile; fileRef = D923D29123CE84F80038E241 /* match_ready_no_focus.caf */; };
+		D92DBFE123D5093000986DB3 /* ready_check_no_focus.wav in Resources */ = {isa = PBXBuildFile; fileRef = D92DBFDF23D5093000986DB3 /* ready_check_no_focus.wav */; };
+		D92DBFE223D5093000986DB3 /* match_ready_no_focus.wav in Resources */ = {isa = PBXBuildFile; fileRef = D92DBFE023D5093000986DB3 /* match_ready_no_focus.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +32,8 @@
 		8EEA97E05086D3DA84A4CCA4 /* libPods-DotaNotifier.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DotaNotifier.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90F306023CE753F001317FC /* DotaNotifier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = DotaNotifier.entitlements; path = DotaNotifier/DotaNotifier.entitlements; sourceTree = "<group>"; };
 		D923D28F23CE7E8D0038E241 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D923D29123CE84F80038E241 /* match_ready_no_focus.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = match_ready_no_focus.caf; sourceTree = "<group>"; };
+		D92DBFDF23D5093000986DB3 /* ready_check_no_focus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ready_check_no_focus.wav; path = ../src/sounds/ready_check_no_focus.wav; sourceTree = "<group>"; };
+		D92DBFE023D5093000986DB3 /* match_ready_no_focus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = match_ready_no_focus.wav; path = ../src/sounds/match_ready_no_focus.wav; sourceTree = "<group>"; };
 		E26B51F33A27D55A0D351FA5 /* Pods-DotaNotifier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DotaNotifier.debug.xcconfig"; path = "Target Support Files/Pods-DotaNotifier/Pods-DotaNotifier.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -69,7 +71,6 @@
 		13B07FAE1A68108700A75B9A /* DotaNotifier */ = {
 			isa = PBXGroup;
 			children = (
-				D923D29123CE84F80038E241 /* match_ready_no_focus.caf */,
 				D90F306023CE753F001317FC /* DotaNotifier.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -79,6 +80,8 @@
 				D923D28F23CE7E8D0038E241 /* GoogleService-Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				D92DBFE023D5093000986DB3 /* match_ready_no_focus.wav */,
+				D92DBFDF23D5093000986DB3 /* ready_check_no_focus.wav */,
 			);
 			name = DotaNotifier;
 			sourceTree = "<group>";
@@ -194,8 +197,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D923D29223CE84F80038E241 /* match_ready_no_focus.caf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D92DBFE123D5093000986DB3 /* ready_check_no_focus.wav in Resources */,
+				D92DBFE223D5093000986DB3 /* match_ready_no_focus.wav in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				D923D29023CE7E8D0038E241 /* GoogleService-Info.plist in Resources */,
 			);
